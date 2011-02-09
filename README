@@ -1,10 +1,10 @@
-SearchInMemory as a reseach about fulltext/fault-tolerant searches
+SearchInMemory as a reseach about full text/fault-tolerant searches
 
 SearchInMemory is my first impression about how works and how should work full text search engines or fault-tolerant searches (FTS). It begins as a research about how stuff works. 
 
-It was also a test for: is it hard to write own fulltext search engine? 
+It was also a test for: is it hard to write own full text search engine? 
 
-You may consider it as a experiment to uncover how fulltext search engines works. 
+You may consider it as a experiment to uncover how full text search engines works. 
 
 I have also tried a BinaryTree implementation of index, but it wasn't so good for me as HashIndex. 
 
@@ -39,7 +39,7 @@ Great start for your own research:
 - http://ngrams.googlelabs.com/ - a practise usage of ngrams with Books Ngram Viewer from Google.
 - http://today.java.net/pub/a/today/2005/08/09/didyoumean.html - great article about how Did you mean works with Lucene. Very inspiring post - but mainly about Java.
 - http://framework.zend.com/code/filedetails.php?repname=Zend+Framework&path=%2Ftrunk%2Flibrary%2FZend%2FSearch%2FLucene.php - sourcecode from Zend Framework with their PHP implementation of Lucene. Nice source of thougts.
-- http://www.ir.uwaterloo.ca/book/ - A book when you think BIG. It's about building your own service for fulltext search engine scalable almost like Google/Bing. Lots of theory and C/C++ code and algorithms. For very begining I suggest reading an excerpt from chapter 4 - Static inverted indicies - http://www.ir.uwaterloo.ca/book/04-static-inverted-indices.pdf 
+- http://www.ir.uwaterloo.ca/book/ - A book when you think BIG. It's about building your own service for full text search engine scalable almost like Google/Bing. Lots of theory and C/C++ code and algorithms. For very begining I suggest reading an excerpt from chapter 4 - Static inverted indicies - http://www.ir.uwaterloo.ca/book/04-static-inverted-indices.pdf 
 
 - Helpful php functions: http://www.php.net/manual/en/function.levenshtein.php, http://www.php.net/manual/en/function.metaphone.php, http://php.net/manual/en/function.soundex.php, http://docs.php.net/manual/en/language.types.array.php :)
 
