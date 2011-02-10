@@ -149,7 +149,7 @@ class SearchInMemory {
         $limit = $attributes['paging']['limit'];
         $offset = $attributes['paging']['offset'];
         $fields = $attributes['fields'];
-        $facetsConfiguration = $attributes['facets'];
+        $facetsConfiguration = $attributes['facets']?$attributes['facets']:array();
 
         // all hits index:
         $hits = array();
