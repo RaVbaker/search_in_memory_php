@@ -1,6 +1,7 @@
 <?php
 
 require_once 'HashIndex.php';
+require_once 'DoubleMetaPhone.php';
 
 /**
  * Class that support searching through indexed data in PHP memory. 
@@ -33,7 +34,10 @@ class SearchInMemory {
     
     
     /**
-     * Constructor
+     * Constructor      
+     *
+     * Example of use: $searcher = new SearchInMemory(array('docs' => array(array('id' => 1, 'title'=>"Bar baz", 'keywords' => array('bar','baz')), array('id' => 2, 'title'=>"Bar baz2", 'keywords' => array('bar','baz2')), array('id' => 3, 'title'=>"Bar2 baz", 'keywords' => array('bar2','baz')),  ), 'fulltext_index' => 'keywords',));
+     * $results = $searcher->find(array('query' => array('phrase' => "bar baz2")));
      *
      * @param array $options 
      * @author Rafał Piekarski
